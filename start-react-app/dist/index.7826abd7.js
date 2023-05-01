@@ -2924,65 +2924,69 @@ var prevRefreshSig = window.$RefreshSig$;
 $parcel$ReactRefreshHelpers$c1db.prelude(module);
 
 try {
-// when creating elements in react it takes three parameters -
-//1st is element name,
-// 2nd is object{'attributes'} which takes specifies the attributes
-//and 3rd is content. It is also props- props and childrens that we passes
-// const heading = React.createElement('h1', {}, 'Hello world from react');
-// const heading = React.createElement(
-// 	'h1',
-// 	{ id: 'heading', xyz: 'abc' }, //pops
-// 	'Hello world from react', //children
-// );
-// console.log(heading); //it will give us object(react elemnet)
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// // everything will be render to the root
-// root.render(heading);
-// This is how to create neasted html in react
-//we want to create this
-/**
- *   <div id='parent'>
- *       <div id='child'>
- *           <h1>i am h1 tag</h1>
- *           <h2>I am h2 tag</h2>
- *       </div>
- *   </div>
- */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-// const parent = React.createElement(
-// 	'div',
-// 	{ id: 'parent' },
-// 	React.createElement('div', { id: 'child' }, [
-// 		React.createElement('h1', {}, 'I am h1 tag'),
-// 		React.createElement('h2', {}, 'I am h2 tag'),
-// 	]),
-// 	React.createElement('div', { id: 'child' }, [
-// 		React.createElement('h1', {}, 'I am h1 tag'),
-// 		React.createElement('h2', {}, 'I am h2 tag'),
-// 	]),
-// );
-// console.log(parent);
-// React.createElement => ReactElement -> JS Object => HTMLElement(render)
-const heading = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
-    id: "heading"
-}, "Namaste React");
-console.log(heading);
-//Bable transpiles it to --> JSX => React.createElement => ReactElement -> JS Object => HTMLElement(render)
-const jsxHeading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-    id: "heading",
-    children: "Hello from JSX"
+// React Element
+const element = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+    children: "Element Title"
 }, void 0, false, {
     fileName: "App.js",
-    lineNumber: 52,
-    columnNumber: 20
+    lineNumber: 5,
+    columnNumber: 17
 }, undefined);
+// React Functional Compoent
+const Title = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+        children: "This is Title"
+    }, void 0, false, {
+        fileName: "App.js",
+        lineNumber: 8,
+        columnNumber: 9
+    }, undefined);
+};
+_c = Title;
+// Component Composition
+const HeadingComponent = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        id: "container",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Title, {}, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 15,
+                columnNumber: 4
+            }, undefined),
+            element,
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                className: "heading",
+                children: "Namaste React"
+            }, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 19,
+                columnNumber: 4
+            }, undefined),
+            Title()
+        ]
+    }, void 0, true, {
+        fileName: "App.js",
+        lineNumber: 14,
+        columnNumber: 3
+    }, undefined);
+};
+_c1 = HeadingComponent;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-// root.render(heading);
-root.render(jsxHeading);
+// render Component
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeadingComponent, {}, void 0, false, {
+    fileName: "App.js",
+    lineNumber: 29,
+    columnNumber: 13
+}, undefined));
+var _c, _c1;
+$RefreshReg$(_c, "Title");
+$RefreshReg$(_c1, "HeadingComponent");
 
   $parcel$ReactRefreshHelpers$c1db.postlude(module);
 } finally {
