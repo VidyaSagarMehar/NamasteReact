@@ -39,7 +39,15 @@ const Header = () => {
 const RestaurantCard = () => {
 	return (
 		<div className="res-card">
+			<img
+				className="card-img"
+				src="https://st.depositphotos.com/3147737/4947/i/600/depositphotos_49471133-stock-photo-hyderabadi-biryani-a-popular-chicken.jpg"
+				alt="food image"
+			/>
 			<h3>Meghna Food</h3>
+			<h4>Asian, Briyani, Indian</h4>
+			<p>4.3 Start</p>
+			<p>30 min</p>
 		</div>
 	);
 };
@@ -50,6 +58,24 @@ const Body = () => {
 		<div className="body">
 			<div className="search">Search</div>
 			<div className="res-container">
+				<RestaurantCard />
+				<RestaurantCard />
+				<RestaurantCard />
+				<RestaurantCard />
+				<RestaurantCard />
+				<RestaurantCard />
+				<RestaurantCard />
+				<RestaurantCard />
+				<RestaurantCard />
+				<RestaurantCard />
+				<RestaurantCard />
+				<RestaurantCard />
+				<RestaurantCard />
+				<RestaurantCard />
+				<RestaurantCard />
+				<RestaurantCard />
+				<RestaurantCard />
+				<RestaurantCard />
 				<RestaurantCard />
 			</div>
 		</div>
