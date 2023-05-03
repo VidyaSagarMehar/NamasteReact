@@ -1,0 +1,23 @@
+* {
+	box-sizing: border-box;
+}
+.logo {
+	font-size: 20px;
+	margin-left: 20px;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid black;
+}
+
+.nav-item ul {
+	/* border: 2px solid red; */
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	font-size: 24px;
+}
+.nav-item ul li {
+	padding: 0px 20px;
+}
