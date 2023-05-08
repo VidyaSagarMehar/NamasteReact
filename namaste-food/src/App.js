@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Header from './components/Header';
+import Body from './components/Body';
 
 /**
  * Header
@@ -15,49 +17,6 @@ import ReactDOM from 'react-dom/client';
  * 	-Address
  * 	-Contact
  */
-
-// Header component
-const Header = () => {
-	return (
-		<div className="header">
-			<div className="logo-container">
-				<p className="logo">LOGO</p>
-			</div>
-			<div className="nav-item">
-				<ul>
-					<li>Home</li>
-					<li>About Us</li>
-					<li>Contact Us</li>
-					<li>Cart</li>
-				</ul>
-			</div>
-		</div>
-	);
-};
-
-// Restaurant Card Component
-const RestaurantCard = (props) => {
-	const { resData } = props; // destructuring
-
-	const { cloudinaryImageId, name, cuisines, avgRatingString, costForTwo } =
-		resData?.info;
-	return (
-		<div className="res-card">
-			<img
-				className="card-img"
-				src={
-					'https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/' +
-					cloudinaryImageId
-				}
-				alt="food image"
-			/>
-			<h3>{name}</h3>
-			<h4>{cuisines.join(', ')}</h4>
-			<p>{avgRatingString} Star</p>
-			<p>{costForTwo}</p>
-		</div>
-	);
-};
 
 // APi
 const resList = [
@@ -1628,20 +1587,6 @@ const resList = [
 		},
 	},
 ];
-
-// Body Component
-const Body = () => {
-	return (
-		<div className="body">
-			<div className="search">Search</div>
-			<div className="res-container">
-				{resList.map((restaurant) => (
-					<RestaurantCard key={restaurant.info.id} resData={restaurant} />
-				))}
-			</div>
-		</div>
-	);
-};
 
 // App layout ccomponent
 const AppLayout = () => {
