@@ -19,7 +19,7 @@
 113C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\node_modules\@parcel\optimizer-svgo133257057614122530 1
 122C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\node_modules\@parcel\workers\src\cpuCount.js133257057558465642 0
 135C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\node_modules\css-select\lib\pseudo-selectors\pseudos.d.ts133257057510982632 0
-82C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\dist133273964424300820 1
+82C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\dist133282552258999878 1
 116C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\node_modules\css-select\lib\index.d.ts133257057510893592 0
 140C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\node_modules\htmlnano\lib\modules\minifyConditionalComments.js133257057520275857 0
 125C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\node_modules\@parcel\packager-js\lib\helpers.js133257057601683712 0
@@ -27,7 +27,7 @@
 122C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\node_modules\htmlnano\docs\package-lock.json133257057563446374 0
 107C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\node_modules\stable\README.md133257057506634331 0
 126C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\node_modules\update-browserslist-db\package.json133257057507565442 0
-84C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\App.js133273964422750996 0
+84C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\App.js133274066099548845 0
 120C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\node_modules\v8-compile-cache\CHANGELOG.md133257057615504220 0
 134C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\node_modules\electron-to-chromium\chromium-versions.json133257057508615456 0
 136C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\node_modules\lmdb\node_modules\node-addon-api\package.json133257057685539200 0
@@ -4365,8 +4365,8 @@
 102C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\node_modules\.bin\semver133257058238856245 0
 104C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\node_modules\.bin\svgo.ps1133257058238866363 0
 106C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\node_modules\.bin\terser.cmd133257058238866363 0
-100C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\dist\index.7826abd7.js133273964424140823 0
-104C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\dist\index.7826abd7.js.map133273964424270812 0
+100C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\dist\index.7826abd7.js133282552258884143 0
+104C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\dist\index.7826abd7.js.map133282552258979891 0
 101C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\dist\index.8d566482.css133258472616477977 0
 92C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\dist\index.css133269747178615393 0
 93C:\Users\VIDYASAGAR MEHAR\Desktop\NotesExercise\namaste-react\start-react-app\dist\index.html133273943157270331 0
